@@ -1,5 +1,5 @@
 /* OBI Strength OS service worker — app-shell cache for offline use. Data lives in IndexedDB, never here. */
-const CACHE = 'obi-strength-os-v3.4.2';
+const CACHE = 'obi-strength-os-v3.6.0';
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(['./', './index.html', './manifest.webmanifest', './icon.svg'])).then(() => self.skipWaiting()));
 });
