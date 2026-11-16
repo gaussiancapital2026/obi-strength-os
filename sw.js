@@ -4,8 +4,8 @@
  * a hash of this build's files, and the list of every emitted file (hashed JS/CSS, index.html, icons, manifest).
  */
 const VERSION = '3.27.0';
-const BUILD = '55cf4d76ce3d';
-const PRECACHE = ["./","./assets/index-BNTIeuLZ.js","./assets/index-DilN_tqs.css","./icon-180.png","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
+const BUILD = '39ece9a8fb31';
+const PRECACHE = ["./","./assets/index-CkBTDACO.js","./assets/index-DilN_tqs.css","./icon-180.png","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
 
 // Cache names are namespaced by app AND scope path, so another app (or another copy of this app) on the same
 // origin — e.g. a different GitHub Pages project — is never touched.
