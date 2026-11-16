@@ -3,9 +3,9 @@
  * The build (vite.config.ts → precacheManifest) replaces the three placeholders below with the real version,
  * a hash of this build's files, and the list of every emitted file (hashed JS/CSS, index.html, icons, manifest).
  */
-const VERSION = '3.24.0';
-const BUILD = '5eca3c5295ad';
-const PRECACHE = ["./","./assets/index-Bkbyx7mU.js","./assets/index-C_L3Z1hc.css","./icon-180.png","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
+const VERSION = '3.25.0';
+const BUILD = 'e127d68bd235';
+const PRECACHE = ["./","./assets/index-C_L3Z1hc.css","./assets/index-DfEhKiIP.js","./icon-180.png","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
 
 // Cache names are namespaced by app AND scope path, so another app (or another copy of this app) on the same
 // origin — e.g. a different GitHub Pages project — is never touched.
